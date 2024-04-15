@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index page</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+<body>
+
+    <div class="container">
+    <!--  -->
+
+
+    <section id="home">
+        <header>
+
+
+            <div class="navbar">
+                <div class="logo">SoftCoders</div>
+                <nav>
+                    <ul>
+                        <li><a href="#home"><i class="ri-home-8-line"> </i>Home</a></li>
+                        <li><a href="#aboutus"><i class="ri-team-fill"> </i>About us</a></li>
+                        <li><a href="#gallery"><i class="ri-image-circle-line"> </i>Gallery</a></li>
+                        <li><a href="#contactus"><i class="ri-question-answer-fill"> </i>Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+
+        <div class="start">
+
+            <div class="left">
+                <h4>Hi,everyone.</h4>
+                <h3>We are team <span>SoftCoders</span></h3>
+                <p>We are currently software developer students,with great potential and dedicated in our career path. <b></b></p>
+                <p>We are very happy to share with you guys our experience and also solving some problems related to software. </p>
+            </div>
+            <div class="right">
+                <h4 style="margin-left: 50px;">Find more about us</h4>
+    
+                <div class="learn">
+                    <button type="button"><a href="#aboutus" style="text-decoration: none;">Learn more</a></button>  
+                    <button type="button"> <a href="#contactus" style="text-decoration: none;">Get in touch</a></button>
+                    <button type="button"> <a href="#gallery" style="text-decoration: none;">Our work</a></button>
+                 </div>
+            </div>
+        </div>
+    
+
+    </section>
+
+    <!--  -->
+    <section id="aboutus">
+
+
+        <h3 style="text-align: center;margin: 30px;">About us</h3>
+
+
+        <div class="about" id="blur">
+
+
+            <div class="photo">
+                <div class="image">
+                    <img src="img/me.jpg" alt="" srcset="">
+            </div>
+                <div class="words">
+                    <h5>Names <b>: Teto ziella</b></h5>
+                    <h5>School <b>: ETSK MUSHA</b></h5>
+                    <h5>level <b>: LEVEL 4 SOD</b></h5>
+
+                    <button type="button" class="btn" onclick="openPopup()">learn more</button>
+
+                    
+                     <!-- popup -->
+
+                     <div class="boxs" id="popups">
+
+                        <div class="see">
+                            <img src="img/me.jpg" alt="" width="50
+                            %">
+                        </div>
+                        <div class="desc">
+
+                            <h5>Names :<b style="color: #13bbff;"> Teto ziella</b></h5>
+                            <h5>School :<b style="color: #13bbff;"> ETSK MUSHA</b></h5>
+                            <h5>level :<b style="color: #13bbff;"> LEVEL 4 SOD</b></h5>
+
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Eaque expedita, non ea fugiat iure exercitationem
+                                 nostrum doloribus quam, facere doloremque aliquam
+                                   dicta minus itaque totam.
+                                 Quidem impedit consequuntur provident et?</p>
+
+                                 <button onclick="closePopup()" id="un">ok</button>
+
+                        </div>
+
+                     </div>
+
+
+                     <script>
+
+                        
+                        
+                        let  popups= document.getElementById("popups");
+                        function openPopup() {
+
+                            popups.classList.add("open-boxs");
+                            
+                        }
+
+                        function closePopup() {
+
+                       popups.classList.remove("open-boxs");
+
+}
+
+                     </script>
+
+                     
+                    <!-- popup -->
+
+                    
+
+
+                                    </div>
+            </div>
+
+
+            <div class="photo">
+                <div class="image">
+                    <img src="img/r.jpg" alt="" srcset="">
+            </div>
+                <div class="words">
+                    <h5>Names <b>: Irakoze Rafiki</b></h5>
+                    <h5>School <b>: ETSK MUSHA</b></h5>
+                    <h5>level <b>: LEVEL 4 SOD</b></h5>
+
+                    <button type="button" class="btn" onclick="openPop()">learn more</button>
+
+                      <!-- popup -->
+
+                      <div class="boxed" id="pop">
+
+                        <div class="see">
+                            <img src="img/rafikis.png" alt="" width="50
+                            %">
+                        </div>
+                        <div class="desc">
+ 
+                         <h5>Names :<b style="color: #13bbff;"> Irakoze Rafiki</b></h5>
+                         <h5>School :<b style="color: #13bbff;"> ETSK MUSHA</b></h5>
+                         <h5>level :<b style="color: #13bbff;"> LEVEL 4 SOD</b></h5>
+ 
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Eaque expedita, non ea fugiat iure exercitationem
+                                 nostrum doloribus quam, facere doloremque aliquam
+                                   dicta minus itaque totam.
+                                 Quidem impedit consequuntur provident et?</p>
+ 
+                                 <button onclick="closePop()" id="one">ok</button>
+ 
+                        </div>
+ 
+                     </div>
+ 
+ 
+                     <script>
+                        let  pop= document.getElementById("pop");
+                        function openPop() {
+ 
+                            pop.classList.add("open-boxed");
+                            
+                        }
+ 
+                        function closePop() {
+ 
+                     pop.classList.remove("open-boxed");
+ 
+ }
+ 
+                     </script>
+ 
+                     
+                    <!-- popup -->
+
+                   
+                </div>
+            </div>
+
+
+
+
+            <div class="photo">
+                <div class="image">
+                    <img src="img/guy.jpg" alt="" srcset="">
+            </div>
+                <div class="words">
+                    <h5>Names <b>: Hitayezu Emmanuel</b></h5>
+                    <h5>School <b>: ETSK MUSHA</b></h5>
+                    <h5>level <b>: LEVEL 4 SOD</b></h5>
+
+                    <button type="button" class="btn" onclick="openPops()">learn more</button>
+
+                    <!-- popup -->
+
+                    <div class="boxs" id="pops">
+
+                       <div class="see">
+                           <img src="img/guy.jpg" alt="" width="50
+                           %">
+                       </div>
+                       <div class="desc">
+
+                           <h5>Names <b style="color: #13bbff;">:Hitayezu Emmanuel</b></h5>
+                           <h5>School <b style="color: #13bbff;">: Apena Tss</b></h5>
+                           <h5>level <b style="color: #13bbff;">: LEVEL 4 SOD</b></h5>
+
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                               Eaque expedita, non ea fugiat iure exercitationem
+                                nostrum doloribus quam, facere doloremque aliquam
+                                  dicta minus itaque totam.
+                                Quidem impedit consequuntur provident et?</p>
+
+                                <button onclick="closePops()" id="one">ok</button>
+
+                       </div>
+
+                    </div>
+
+
+                    <script>
+                       let  pops= document.getElementById("pops");
+                       function openPops() {
+
+                           pops.classList.add("open-boxs");
+                           
+                       }
+
+                       function closePops() {
+
+pops.classList.remove("open-boxs");
+
+}
+
+                    </script>
+
+                    
+                   <!-- popup -->
+
+                </div>
+            </div>
+
+
+            <div class="photo">
+                <div class="image">
+                    <img src="img/kundwa.jpg" alt="" srcset="">
+            </div>
+                <div class="words">
+                    <h5>Names <b>: Jack Tuyizere</b></h5>
+                    <h5>School <b>: ETSK MUSHA</b></h5>
+                    <h5>level <b>: LEVEL 4 SOD</b></h5>
+    
+                    <button type="button" class="btn" onclick="openPopu()">learn more</button>
+
+                    <!-- popup -->
+
+                    <div class="boxe" id="popu">
+
+                       <div class="see">
+                           <img src="img/kundwa.jpg" alt="" width="50
+                           %">
+                       </div>
+                       <div class="desc">
+
+                           <h5>Names <b style="color: #13bbff;">: Jack Tuyizere</b></h5>
+                           <h5>School <b style="color: #13bbff;">: ETSK MUSHA</b></h5>
+                           <h5>level <b style="color: #13bbff;">: LEVEL 4 SOD</b></h5>
+
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                               Eaque expedita, non ea fugiat iure exercitationem
+                                nostrum doloribus quam, facere doloremque aliquam
+                                  dicta minus itaque totam.
+                                Quidem impedit consequuntur provident et?</p>
+
+                                <button onclick="closePopu()" id="one">ok</button>
+
+                       </div>
+
+                    </div>
+
+
+                    <script>
+                       let  popu= document.getElementById("popu");
+                       function openPopu() {
+
+                           popu.classList.add("open-boxe");
+                           
+                       }
+
+                       function closePopu() {
+
+                 popu.classList.remove("open-boxe");
+
+               }
+
+                    </script>
+
+                    
+                   <!-- popup -->
+
+
+                </div>
+            </div>
+
+
+            
+
+
+
+                
+
+
+            
+        </div>
+
+    
+
+
+
+    </section>
+    <!--  -->
+    <section id="gallery">
+
+        <h3 style="text-align: center;">Our Gallery</h3>
+
+        <div class="content">
+            <div class="box">
+                <span style="--i:1"><img src="img/pic (3).jpg" alt="" srcset=""></span>
+
+                <span style="--i:2"><img src="img/pic (4).jpg" alt="" srcset=""></span>
+
+                <span style="--i:3"><img src="img/pic (5).jpg" alt="" srcset=""></span>
+
+                <span style="--i:4"><img src="img/pic (6).jpg" alt="" srcset=""></span>
+
+                <span style="--i:5"><img src="img/pic (7).jpg" alt="" srcset=""></span>
+
+                <span style="--i:6"><img src="img/pic (8).jpg" alt="" srcset=""></span>
+
+                <span style="--i:7"><img src="img/pic (9).jpg" alt="" srcset=""></span>
+
+                <span style="--i:8"><img src="img/pic (5).jpg" alt="" srcset=""></span>
+
+            </div>
+
+            <div class="btns">
+                <div class="btn prev"></div>
+                <div class="btn next"></div>
+            </div>
+
+
+            
+
+            
+
+        </div>
+
+        <script>
+            let prev = document.querySelector('.prev');
+            let next = document.querySelector('.next');
+            let box = document.querySelector('.box');
+
+            let degrees =0;
+
+            prev.addEventListener('click',function(){
+                degrees += 45;
+                box.style =`transform: perspective(1000px) rotateY(${degrees}deg) `;
+            })
+
+            next.addEventListener('click',function(){
+                degrees -= 45;
+                box.style =`transform: perspective(1000px) rotateY(${degrees}deg) `;
+            })
+
+
+        </script>
+
+
+
+
+
+    </section>
+    <!--  -->
+    <section id="contactus">
+
+        <h3 style="text-align: center;margin: 30px;">Get in touch with us</h3>
+        <div class="all">
+
+            <div class="left">
+
+                <div class="card a">
+
+                    <img src="" alt="">
+
+                    <div class="media">
+                        <h5>
+                            visit the group ......
+                            <br>
+
+                            <a href=""><i class="ri-phone-fill"> </i>0798646018</a><br>
+                            <a href=""><i class="ri-mail-fill">  </i>niyotetoz@gmail.com</a><br>
+                        </h5>
+                    </div>
+
+              </div>
+
+
+
+              <div class="card b">
+                <img src="" alt="">
+
+                <div class="media">
+                    <h5>
+                        visit the group ......
+                        <br>
+
+                        <a href=""><i class="ri-phone-fill"> </i>0798646018</a><br>
+                        <a href=""><i class="ri-mail-fill">  </i>Irakozerafiki@gmail.com</a><br>
+                    </h5>
+                </div>
+
+          </div>
+
+
+
+
+          <div class="card c">
+
+        
+                <img src="" alt="" srcset="" >
+
+            <div class="media">
+                <h5>
+                    visit the group ......
+                    <br>
+
+                    <a href=""><i class="ri-phone-fill"> </i>0798646018</a><br>
+                    <a href=""><i class="ri-mail-fill">  </i>Emmanuel@gmail.com</a><br>
+                </h5>
+            </div>
+
+      </div>
+
+
+
+
+      <div class="card ">
+
+        <img src="" alt="">
+
+        <div class="media">
+            <h5>
+                visit the group ......
+                <br>
+
+                <a href=""><i class="ri-phone-fill"> </i>0798646018</a><br>
+                <a href=""><i class="ri-mail-fill">  </i>jacktuyizere450@gmail.com</a><br>
+            </h5>
+        </div>
+
+  </div>
+
+
+
+
+
+
+
+            </div>
+            <div class="rights">
+
+                <form action="">
+                    <h3 style="text-align: center;">Leave a Message</h3>
+                    <label for="">Email :</label> <br> <br>
+                    <input type="text" name="" id="mail" placeholder="Enter your email" required><br><br>
+
+                    <label for="">Message :</label><br><br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+
+                    <input type="button" value="Submit" id="last">
+
+
+                
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer>all rights reserved</footer>
+
+
+</div>
+    
+</body>
+</html>
